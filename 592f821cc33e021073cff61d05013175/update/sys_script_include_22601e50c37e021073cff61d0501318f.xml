@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_100206_newdevops.DevOpsScript</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>DevOpsScript</name>
+        <script><![CDATA[var DevOpsScript = Class.create();
+DevOpsScript.prototype = {
+    initialize: function() {
+    },
+
+    type: 'DevOpsScript'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-11 02:29:58</sys_created_on>
+        <sys_id>22601e50c37e021073cff61d0501318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DevOpsScript</sys_name>
+        <sys_package display_value="NewDevOpsJune" source="x_100206_newdevops">592f821cc33e021073cff61d05013175</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NewDevOpsJune">592f821cc33e021073cff61d05013175</sys_scope>
+        <sys_update_name>sys_script_include_22601e50c37e021073cff61d0501318f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-11 02:29:58</sys_updated_on>
+    </sys_script_include>
+</record_update>
